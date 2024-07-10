@@ -1,0 +1,33 @@
+/* Estilo base del botón */
+.game-button {
+    background-color: #2e2e2e; /* Gris oscuro */
+    border: 2px solid #8b0000; /* Rojo oscuro para el borde */
+    color: #ffffff; /* Blanco para el texto */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; /* Aumentar el tamaño de la fuente */
+    font-family: 'Creepster', cursive; /* Fuente de miedo */
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0 9px #111; /* Sombra más oscura */
+    text-shadow: 2px 2px 4px #000000, 0 0 10px #ff0000, 0 0 20px #ff0000; /* Sombras y efecto tenebroso */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+.game-button:hover {
+    background-color: #8b0000; /* Rojo oscuro */
+    color: #f5f5f5; /* Blanco humo */
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4), 0 17px 50px 0 rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 8px #ff0000, 0 0 15px #ff0000, 0 0 30px #ff0000; /* Efecto más pronunciado en hover */
+}
+
+/* Efecto al hacer clic en el botón */
+.game-button:active {
+    background-color: #660000; /* Rojo más oscuro */
+    box-shadow: 0 5px #333;
+    transform: translateY(4px); /* Movimiento hacia abajo */
+}
