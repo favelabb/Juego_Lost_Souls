@@ -4,7 +4,7 @@ export class Start extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('menu2', 'assets/img/menu2.gif')
+        this.load.image('menu2', '/assets/img/menu2.gif')
     }
     create() {
 
