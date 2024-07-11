@@ -1,6 +1,6 @@
 import { Player } from "./Player.js";
 import { Chimi } from "./chimi.js";
-import { personaje1 } from "Persona1.js";
+import { personaje1 } from "./persona1.js";
 
 export class GameScene extends Phaser.Scene {
     
