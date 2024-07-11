@@ -8,10 +8,10 @@ export class personaje1{
     }
 
     preload(){
-        this.myScene.load.image('personaje1move1', './assets/enemigo1/mono_jugando1.png')
-        this.myScene.load.image('personaje1move2', './assets/enemigo1/mono_jugando2.png')
-        this.myScene.load.image('personaje1move3', './assets/enemigo1/mono_jugando3.png')
-        this.myScene.load.image('personaje1move4', './assets/enemigo1/mono_jugando4.png')
+        this.myScene.load.image('personaje1move1', 'assets/enemigo1/mono_jugando1.png')
+        this.myScene.load.image('personaje1move2', 'assets/enemigo1/mono_jugando2.png')
+        this.myScene.load.image('personaje1move3', 'assets/enemigo1/mono_jugando3.png')
+        this.myScene.load.image('personaje1move4', 'assets/enemigo1/mono_jugando4.png')
     }
 
     create(){
